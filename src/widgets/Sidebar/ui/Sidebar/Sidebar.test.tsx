@@ -4,7 +4,7 @@ import {
     renderWithTranslation,
 } from 'shared/lib/tests/renderWithTranslation/renderWithTranslation';
 
-describe('Sidebar', () => {
+describe('Sidebar 2', () => {
     test('with only first param', () => {
         renderWithTranslation(<Sidebar />);
         expect(screen.getByTestId('sidebar')).toBeInTheDocument();
@@ -18,3 +18,4 @@ describe('Sidebar', () => {
         expect(screen.getByTestId('sidebar')).toHaveClass('collapsed');
     });
 });
+ 
